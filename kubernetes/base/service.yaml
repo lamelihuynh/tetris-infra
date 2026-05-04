@@ -8,4 +8,4 @@ spec:
   ports:
     - protocol: TCP
       port: 80           # Cổng ảo bên ngoài (để gõ trên trình duyệt)
-      targetPort: 8080   # Cổng thật bên trong Pod (Node.js đang chạy)
+      targetPort: 80   # Cổng thật bên trong Pod (Node.js đang chạy)
